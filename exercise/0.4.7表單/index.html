@@ -1,0 +1,56 @@
+<meta charset="utf-8">
+
+<h1>表格</h1>
+
+<form action="按下送出去後要到的地方" method="送出資料的方法">
+<!--
+    表單設計
+    method >>> GET/POST
+ -->
+</form>
+
+<form action="．．．" method="post">
+    <label for="">帳號：</label>
+        <input type="text">
+        <input type="submit" value="交">
+</form>
+
+<!--aaa按帳號會位移到輸入的地方-->
+<!--placeholder出現提示字元 -->
+<!--name 送去server抓的字元是name =\= id/class -->
+<form action="．．．" method="post">
+    <label for="aaa">帳號：</label>
+        <input type="text" id="aaa" placeholder="請輸入帳號" name = "aaa">
+        <input type="submit" value="交">
+</form>
+
+<h2>輸入框類型：text/password/mail/tel/submit/textarea</h2>
+<form action="按下送出去後要到的地方" method="送出資料的方法">
+
+    <label for="username">帳號：</label>
+    <input type="text" id="username" placeholder="請輸入帳號">
+    <input type="submit" value="提交">
+
+    <br>
+
+    <label for="password">密碼：</label>
+    <input id="password" placeholder="請輸入密碼" type="password">
+    <input type="submit" value="提交">
+    
+    <br>
+
+    <label for="mail">信箱：</label>
+    <input type="mail" id="mail" placeholder="請輸入信箱">
+    <input type="submit" value="提交">
+        
+    <br>
+
+    <label for="tel">電話：</label>
+    <input type="tel" id="mail" placeholder="請輸入電話">
+    <input type="submit" value="提交">
+
+    <br><br>
+
+    <textarea name="qqq" id="" cols="30" rows="10">框內內容</textarea>
+    <input type="submit" value="提交">
+</form>

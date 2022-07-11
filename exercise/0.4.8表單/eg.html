@@ -1,0 +1,39 @@
+<h1>高鐵訂票</h1>
+
+<ul>
+    <li>啟程站 ：
+        <select name="num">
+            <option value="1" selected>台北</option>
+            <option value="2">板橋</option>
+            <option value="3">台中</option>
+            <option value="4">高雄</option>
+        </select>
+        到達站：
+        <select name="num">
+            <option value="1">台北</option>
+            <option value="2">板橋</option>
+            <option value="3">台中</option>
+            <option value="4"  selected>高雄</option>
+        </select>
+    <li>
+        <input type="radio" name="car" id="car1"><label for="car1">標準車廂</label> 
+        <input type="radio" name="car" id="car2"><label for="car2">商務車廂</label>
+    </li>
+
+    <li>
+        <input type="radio" name="seat" id="seat1"><label for="seat1">無</label> 
+        <input type="radio" name="seat" id="seat2"><label for="seat2">靠窗優先</label>
+        <input type="radio" name="seat" id="seat3"><label for="seat3">走道優先</label> 
+    </li>
+
+    <li>
+        <input type="checkbox" name="back" id="back1"><label for="back1">訂購回程</label>
+    </li>
+
+    <li>
+        <label for="aaa">為了確保交易安全，請輸入又圖中之驗證碼：</label>
+        <textarea name="" id="" cols="8" rows="1"></textarea>
+    </li>
+
+</ul>
+<input type="submit" value="開始查詢">
