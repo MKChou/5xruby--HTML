@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/Digital System/HDL Part2/ADD_full/ADD_full.v
+source_file = 1, C:/Users/user/Desktop/Digital System/HDL Part2/ADD_full/db/ADD_full.cbx.xml
+design_name = ADD_full
+instance = comp, \sum~output , sum~output, ADD_full, 1
+instance = comp, \c_out~output , c_out~output, ADD_full, 1
+instance = comp, \c_in~input , c_in~input, ADD_full, 1
+instance = comp, \b~input , b~input, ADD_full, 1
+instance = comp, \a~input , a~input, ADD_full, 1
+instance = comp, \M2|Add0~0 , M2|Add0~0, ADD_full, 1
+instance = comp, \comb~0 , comb~0, ADD_full, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, ADD_full, 1

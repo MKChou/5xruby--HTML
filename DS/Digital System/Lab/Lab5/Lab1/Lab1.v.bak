@@ -1,0 +1,25 @@
+module Adder_Subtracter (a, b, select, out, overflow);
+
+ parameter digit = 4;
+
+ input[digit-1:0]a, b;
+ input select;
+ output [digit-1:0]out;
+ output overflow;
+ 
+ reg out, overflow;
+ 
+ always@ (a or b or select)
+  
+ begin 
+  if (select)
+   {overflow,out} = a+b;
+  else
+   out = a-b;
+   if (a<b)
+    overflow = 1;
+   else
+    overflow = 0;
+ end
+
+endmodule

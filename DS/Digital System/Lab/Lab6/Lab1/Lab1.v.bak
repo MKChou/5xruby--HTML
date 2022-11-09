@@ -1,0 +1,26 @@
+module Lab6_1(din, doub_digit);
+
+	input [3:0] din;
+	output[6:0] doub_digit;
+	
+	reg [6:0] value;
+
+always@(din)
+	begin
+		case(din)
+			4'b0000: value=7'b0000000;
+			4'b0001: value=7'b0000001;
+			4'b0010: value=7'b0000010;
+			4'b0011: value=7'b0000011;
+			4'b0100: value=7'b0000100;
+			4'b0101: value=7'b0000101;
+			4'b0110: value=7'b0000110;
+			4'b0111: value=7'b0000111;
+			4'b1000: value=7'b0001000;
+			4'b1001: value=7'b0001001;
+			default: value=7'b0000000;
+		endcase
+	end
+	
+	SevenSeg u_digit(value,dout_digit);
+endmodule

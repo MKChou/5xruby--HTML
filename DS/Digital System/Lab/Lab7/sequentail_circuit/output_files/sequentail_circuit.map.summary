@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Nov 02 16:49:01 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : sequentail_circuit
+Top-level Entity Name : sequentail_circuit
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 36
+Total pins : 10
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

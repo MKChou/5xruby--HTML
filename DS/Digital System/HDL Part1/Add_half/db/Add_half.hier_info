@@ -1,0 +1,7 @@
+|Add_half
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= <VCC>
+a => comb.IN0
+b => comb.IN1
+
+

@@ -1,0 +1,9 @@
+|ADD_half
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out_bar.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => c_out_bar.IN0
+b => comb.IN1
+b => c_out_bar.IN1
+
+

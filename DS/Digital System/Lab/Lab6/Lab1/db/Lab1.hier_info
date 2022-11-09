@@ -1,0 +1,18 @@
+|Lab1
+num[0] => Decoder0.IN3
+num[0] => Decoder1.IN2
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[2] => Decoder1.IN1
+num[3] => Decoder0.IN0
+num[3] => Decoder1.IN0
+seg[7] <= <GND>
+seg[6] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= nseg.DB_MAX_OUTPUT_PORT_TYPE
+seg[0] <= nseg.DB_MAX_OUTPUT_PORT_TYPE
+
+

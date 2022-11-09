@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/Digital System/HDL Part2/ADD_half/ADD_half.v
+source_file = 1, C:/Users/user/Desktop/Digital System/HDL Part2/ADD_half/db/ADD_half.cbx.xml
+design_name = ADD_half
+instance = comp, \sum~output , sum~output, ADD_half, 1
+instance = comp, \c_out~output , c_out~output, ADD_half, 1
+instance = comp, \b~input , b~input, ADD_half, 1
+instance = comp, \a~input , a~input, ADD_half, 1
+instance = comp, \comb~0 , comb~0, ADD_half, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, ADD_half, 1

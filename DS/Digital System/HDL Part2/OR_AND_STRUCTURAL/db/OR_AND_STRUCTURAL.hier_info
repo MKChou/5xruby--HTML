@@ -1,0 +1,8 @@
+|OR_AND_STRUCTURAL
+IN[0] => u1.IN0
+IN[1] => u1.IN1
+IN[2] => U2.IN0
+IN[3] => U2.IN1
+OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

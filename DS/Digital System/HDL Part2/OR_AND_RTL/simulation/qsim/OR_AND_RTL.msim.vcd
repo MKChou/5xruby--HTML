@@ -1,0 +1,52 @@
+$comment
+	File created using the following command:
+		vcd file OR_AND_RTL.msim.vcd -direction
+$end
+$date
+	Wed Oct 19 13:26:27 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module OR_AND_RTL_vlg_vec_tst $end
+$var reg 4 ! IN [3:0] $end
+$var wire 1 " OUT $end
+
+$scope module i1 $end
+$var wire 1 # gnd $end
+$var wire 1 $ vcc $end
+$var wire 1 % unknown $end
+$var tri1 1 & devclrn $end
+$var tri1 1 ' devpor $end
+$var tri1 1 ( devoe $end
+$var wire 1 ) IN[1]~input_o $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + IN[0]~input_o $end
+$var wire 1 , IN[3]~input_o $end
+$var wire 1 - IN[2]~input_o $end
+$var wire 1 . WideOr0~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 !
+1"
+0#
+1$
+x%
+1&
+1'
+1(
+1)
+0*
+1+
+1,
+1-
+1.
+$end
+#1000000

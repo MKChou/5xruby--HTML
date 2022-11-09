@@ -1,0 +1,72 @@
+$comment
+	File created using the following command:
+		vcd file Add_half.msim.vcd -direction
+$end
+$date
+	Tue Oct 18 23:27:20 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Add_half_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # c_out $end
+$var wire 1 $ sum $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , b~input_o $end
+$var wire 1 - a~input_o $end
+$var wire 1 . comb~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+$end
+#10000
+1!
+1-
+1.
+1$
+#20000
+1"
+0!
+1,
+0-
+#30000
+1!
+1-
+0.
+0$
+#40000
+0"
+0!
+0,
+0-
+#1000000

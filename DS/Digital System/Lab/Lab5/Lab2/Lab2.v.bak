@@ -1,0 +1,29 @@
+module Encoder(in, out, valid);
+
+ input[7:0]in;
+ output [2:0]out;
+ output valid;
+ 
+ reg out, valid;
+ 
+ always@(in)
+ begin
+  valid = 1;
+  case(in)
+   1:out = 3'b000;
+   2:out = 3'b001;
+   4:out = 3'b010;
+   8:out = 3'b011;
+   16:out = 3'b100;
+   32:out = 3'b101;
+   64:out = 3'b110;
+   128:out = 3'b111;
+   default:
+    begin 
+     out = 3'b000;
+     valid = 0;
+    end
+  endcase 
+ end
+ 
+endmodule

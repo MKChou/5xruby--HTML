@@ -1,0 +1,22 @@
+|ADD_full
+sum <= Add_half:M2.port0
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+c_in => c_in.IN1
+
+
+|ADD_full|Add_half:M1
+sum <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+
+
+|ADD_full|Add_half:M2
+sum <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+
+

@@ -1,0 +1,8 @@
+|OR_AND_RTL
+IN[0] => Decoder0.IN3
+IN[1] => Decoder0.IN2
+IN[2] => Decoder0.IN1
+IN[3] => Decoder0.IN0
+OUT <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
